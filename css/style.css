@@ -1,0 +1,89 @@
+* {
+
+    width: 1200px;
+    height: 3000px;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section,
+div {
+    display: block;
+}
+
+body {
+    background: #FFF;
+}
+
+#wrapper {
+    margin: 0 auto;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+header {
+    margin-left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 26px;
+}
+
+nav a {
+    color: #612999;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 64px;
+    display: inline;
+}
+
+nav a:hover {
+    color: #612999;
+    font-weight: 700;
+}
+
+#logo {
+    background-image: url(../images/sushi.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    padding-left: 32px;
+    display: inline;
+}
+
+#logo span {
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin-right: 135px;
+}
+
+footer {
+    margin-bottom: 0px;
+    width: 1200px;
+    height: 287px;
+    flex-shrink: 0;
+    background: #EFECFF;
+}
+
+#footer-titles {
+    color: #333;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+}
